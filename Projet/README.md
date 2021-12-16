@@ -31,7 +31,7 @@ Make a monitoring and control system of a GreenHouse, including : light, moistur
 
 ## Hardware description
 
-![IMG_3910](https://user-images.githubusercontent.com/91612064/145234998-c7b4ab60-2436-494e-a160-be616c6de720.jpg)
+![Circuit](https://github.com/AkaiRyussei/Digital-electronics-2/blob/main/Green%20House%20Project/Circuit.png?raw=true)
 
 * Arduino Uno board : ATmega328P 
 * DHT12 Digital temperature and humidity sensor
@@ -40,6 +40,8 @@ Make a monitoring and control system of a GreenHouse, including : light, moistur
 * LED
 * Relay Modules
 * SG90 Micro-servo motor
+  
+![IMG_3910](https://user-images.githubusercontent.com/91612064/145234998-c7b4ab60-2436-494e-a160-be616c6de720.jpg)
 
 
 
