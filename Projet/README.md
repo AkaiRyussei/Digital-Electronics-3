@@ -25,8 +25,7 @@ Link to this file in your GitHub repository:
 
 ## Project objectives
 
-Our project consists of the operation of an autonomous greenhouse. Our greenhouse has sensors: a light sensor, a temperature sensor and a humidity sensor. The objective of our project is to be able to control these variables in real time so that they remain in optimal intervals for the culture of plants. Therefore, depending on the values of the variables, actions can be taken in order to try to keep the variables in the optimal ranges. Irrigation, opening the window or turning on the fans can be activated. 
-For this we have considered the optimal value intervals for humidity, temperature and light, and we have defined the set of actions to be performed for each combination of divergence from these intervals.
+Make a monitoring and control system of a GreenHouse, including : light, moisture and temperature sensor and also : irrigation pump control, DC fans and windows opening or closing.
 
 <a name="hardware"></a>
 
@@ -56,6 +55,9 @@ The libraries used, are libraries used in previous labs :
 
 
 ![Flowchart](https://github.com/AkaiRyussei/Digital-electronics-2/blob/main/Green%20House%20Project/flowchart.png?raw=true)
+
+Our project consists of the operation of an autonomous greenhouse. Our greenhouse has sensors: a light sensor, a temperature sensor and a humidity sensor. The objective of our project is to be able to control these variables in real time so that they remain in optimal intervals for the culture of plants. Therefore, depending on the values of the variables, actions can be taken in order to try to keep the variables in the optimal ranges. Irrigation, opening the window or turning on the fans can be activated. 
+For this we have considered the optimal value intervals for humidity, temperature and light, and we have defined the set of actions to be performed for each combination of divergence from these intervals.
 
 <a name="video"></a>
 
