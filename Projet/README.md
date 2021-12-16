@@ -33,6 +33,13 @@ Make a monitoring and control system of a GreenHouse, including : light, moistur
 
 ![IMG_3910](https://user-images.githubusercontent.com/91612064/145234998-c7b4ab60-2436-494e-a160-be616c6de720.jpg)
 
+* Arduino Uno board : ATmega328P 
+* DHT12 Digital temperature and humidity sensor
+* Photoresistor : Light sensor
+* Resistor   330 Ohm
+* LED
+
+
 
 <a name="libs"></a>
 
