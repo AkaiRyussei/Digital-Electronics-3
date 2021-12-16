@@ -10,16 +10,19 @@
 
 Link to this file in your GitHub repository:
 
-[https://github.com/Renaudv/Digital-Electronics-2/edit/main/Projet/README.md](https://github.com/Renaudv/Digital-Electronics-2/edit/main/Projet/README.md)
+[https://github.com/AkaiRyussei/Digital-electronics-2/tree/main/Green%20House%20Project](https://github.com/AkaiRyussei/Digital-electronics-2/tree/main/Green%20House%20Project)
 
 ### Table of contents
 
-* [Project objectives](#objectives)
-* [Hardware description](#hardware)
-* [Libraries description](#libs)
-* [Main application](#main)
-* [Video](#video)
-* [References](#references)
+- [GREENHOUSE](#greenhouse)
+    - [Team members](#team-members)
+    - [Table of contents](#table-of-contents)
+  - [Project objectives](#project-objectives)
+  - [Hardware description](#hardware-description)
+  - [Libraries description](#libraries-description)
+  - [Main application](#main-application)
+  - [Video](#video)
+  - [References](#references)
 
 <a name="objectives"></a>
 
@@ -36,7 +39,7 @@ Make a monitoring and control system of a GreenHouse, including : light, moistur
 * Arduino Uno board : ATmega328P 
 * DHT12 Digital temperature and humidity sensor
 * Photoresistor : Light sensor
-* Resistor 330 Ohm x2
+* Resistor 330 Ohm  x 2
 * LED
 * Relay Modules
 * SG90 Micro-servo motor
@@ -68,7 +71,12 @@ The libraries used, are libraries used in previous labs :
 ![Flowchart](https://github.com/AkaiRyussei/Digital-electronics-2/blob/main/Green%20House%20Project/flowchart.png?raw=true)
 
 Our project consists of the operation of an autonomous greenhouse. Our greenhouse has sensors: a light sensor, a temperature sensor and a humidity sensor. The objective of our project is to be able to control these variables in real time so that they remain in optimal intervals for the culture of plants. Therefore, depending on the values of the variables, actions can be taken in order to try to keep the variables in the optimal ranges. Irrigation, opening the window or turning on the fans can be activated. 
+
 For this we have considered the optimal value intervals for humidity, temperature and light, and we have defined the set of actions to be performed for each combination of divergence from these intervals.
+
+We realized a dynamic system thanks to the use of two separate interrupts: one realizing the recovery of the sensors' data, while the other one realizes the management of the outputs according to the retrieved data. Both running in parallel, this allows us to act on the outputs of the system without ceasing to update the sensor data.
+
+__PS__ : *We did not have enough time to complete the project during the lab session. Therefore, our complete system could only be partially tested: we were able to test the operation of each output separately as well as the recovery of sensor data. Nevertheless, we are not sure that the outputs of our system behave according to our expectations in relation to the variations of the data recovered by the sensors.* 
 
 <a name="video"></a>
 
