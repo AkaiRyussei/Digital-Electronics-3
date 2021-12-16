@@ -25,32 +25,43 @@ Link to this file in your GitHub repository:
 
 ## Project objectives
 
-Make a monitoring and control system of a GreenHouse, including : light / moisure and temperature sensor and also : irrigation pump control, DC fans and windows opening
+Make a monitoring and control system of a GreenHouse, including : light, moisure and temperature sensor and also : irrigation pump control, DC fans and windows opening
 
 <a name="hardware"></a>
 
 ## Hardware description
 
-[IMG_3910](https://user-images.githubusercontent.com/91612064/145234998-c7b4ab60-2436-494e-a160-be616c6de720.jpg)
+![IMG_3910](https://user-images.githubusercontent.com/91612064/145234998-c7b4ab60-2436-494e-a160-be616c6de720.jpg)
 
 
 <a name="libs"></a>
 
 ## Libraries description
 
-Write your text here.
+The libraries used, are libraries used in previous labs : 
+
+* avr/io.h        : AVR device-specific IO definitions 
+* avr/interrupt.h : Interrupts standard C library for AVR-GCC 
+* stdbool.h       : Boolean type and values 
+* timer.h         : Timer library for AVR-GCC
+* tdlib.h         : C library. Needed for conversion function
+* uart.h          : Peter Fleury's UART library
+* twi.h           : TWI library for AVR-GCC
+* gpio.h          : Contains functions for controlling AVRs' gpio pin(s).
+* util/delay.h    : Contains delay functions
 
 <a name="main"></a>
 
 ## Main application
 
-
+![Flowchart](https://github.com/AkaiRyussei/Digital-electronics-2/blob/main/Green%20House%20Project/flowchart.png?raw=true)
 
 
 <a name="video"></a>
 
 ## Video
-https://drive.google.com/file/d/1YLNULn7bUl6V9HJiC57NfYxINMQx4-yd/view?usp=sharing
+
+Write your text here
 
 <a name="references"></a>
 
