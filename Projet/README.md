@@ -39,6 +39,7 @@ Make a monitoring and control system of a GreenHouse, including : light, moistur
 * Resistor   330 Ohm
 * LED
 * Relay Modules
+* SG90 Micro-servo motor
 
 
 
