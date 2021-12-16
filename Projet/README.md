@@ -38,6 +38,7 @@ Make a monitoring and control system of a GreenHouse, including : light, moistur
 * Photoresistor : Light sensor
 * Resistor   330 Ohm
 * LED
+* Relay Modules
 
 
 
