@@ -37,15 +37,24 @@ Make a monitoring and control system of a GreenHouse, including : light / moisur
 <a name="libs"></a>
 
 ## Libraries description
+The libraries used, are libraries used in previous labs : 
 
-Write your text here.
+* avr/io.h        : AVR device-specific IO definitions 
+* avr/interrupt.h : Interrupts standard C library for AVR-GCC 
+* stdbool.h       : Boolean type and values 
+* timer.h         : Timer library for AVR-GCC
+* tdlib.h         : C library. Needed for conversion function
+* uart.h          : Peter Fleury's UART library
+* twi.h           : TWI library for AVR-GCC
+* gpio.h          : Contains functions for controlling AVRs' gpio pin(s).
+* util/delay.h    : Contains delay functions
 
 <a name="main"></a>
 
 ## Main application
 
 
-
+![Flowchart](https://github.com/AkaiRyussei/Digital-electronics-2/blob/main/Green%20House%20Project/flowchart.png?raw=true)
 
 <a name="video"></a>
 
