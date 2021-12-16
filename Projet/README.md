@@ -36,7 +36,7 @@ Make a monitoring and control system of a GreenHouse, including : light, moistur
 * Arduino Uno board : ATmega328P 
 * DHT12 Digital temperature and humidity sensor
 * Photoresistor : Light sensor
-* Resistor   330 Ohm
+* Resistor 330 Ohm x2
 * LED
 * Relay Modules
 * SG90 Micro-servo motor
